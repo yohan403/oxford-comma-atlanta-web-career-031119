@@ -14,7 +14,7 @@ def oxford_comma(array)
       string << array[i-1]
       string << ", "
     end
-    string = string + " and " + array[-1]
+    string = string + "and " + array[-1]
   end
   return string
 end
